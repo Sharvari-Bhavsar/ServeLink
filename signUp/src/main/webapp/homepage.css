@@ -1,0 +1,314 @@
+*{
+  margin:0;
+  font-family: Arial;
+  border:border-box;
+ 
+ 
+}
+body{
+  background-color: rgba(241, 118, 18, 0.302);
+}
+.navbar{
+  height: 70px;
+  background-color: #0f1111;
+  color: white;
+  /* display:flex helps to put all div in same line */
+  display: flex;
+  align-items: center;
+  /* to display all boxes at equally spaces from each other */
+  justify-content: space-evenly;
+}
+.navlogo{
+  height: 50px;
+  width: 100px;
+  padding: 10px;
+ 
+  
+}
+/* box1 */
+.logo{
+    background-image:url("./logo-servelink2nd-modified.png") ;
+    background-size: cover;
+    height:58px;
+    width: 58px;   
+}
+.border{
+  padding: 5px;
+  border: 0.01px solid black;
+}
+
+.border:hover{
+  padding: 5px;
+  border: 1px solid white;
+}
+/* box2 */
+
+.addr-first{
+  color: #cccccc;
+  font-size:0.85rem;
+  margin-left: 15px;
+
+}
+.addr-second{
+  margin: 3px;
+  font-size:1rem;
+}
+.add-icon{
+  display: flex;
+  
+}
+/* box3 */
+.nav-search{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  width:620px;
+  height: 40px;
+  border-radius: 3px;
+  border: 2px solid  black
+}
+.nav-signIn a{
+	color:white;
+	text-decoration:none;
+}
+
+.search-select{
+  background-color: #f3f3f3;
+  width:50px ;
+  text-align: center;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+}
+.search-input{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-icon{
+  width: 45px;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ font-size: 1.2rem;
+ background-color: #f8b053;
+ border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+/* box3 */
+span{
+   font-size:0.87rem;
+   
+}
+.nav-second{
+  font-size:0.9rem;
+  /* font-weight makes letter bold */
+  font-weight: 700;
+}
+.panel{
+  height: 40px;
+  background-color:rgba(241, 118, 18, 0.718) ;
+  display: flex;
+  /* to align text vertically in center */
+  align-items: center;
+  /* to align text horizontally in center */
+  justify-content: space-evenly;
+ 
+}
+/* paragraph tag of panel */
+.panel-options p{
+  display: inline;
+  margin-left: 25px;
+  padding: 2px;
+  text-decoration:none;
+
+
+}
+.panel-options p:hover,.panel-reviews:hover{
+  text-decoration-line:underline ;
+  text-decoration-thickness: 1px;
+}
+.panel-options {
+  width: 80%;
+  font-size: 1 rem;
+}
+.panel-options p:hover ,.panel-reviews:hover{
+  background-color:  rgba(255, 255, 255,0.5);
+  padding: 2px;
+}
+.panel-reviews{
+  font-size:0.9rem;
+  font-weight: 700;
+
+}
+.hero-section{
+  background-image: url("./homepage-fridge-image.png");
+  height: 390px;
+  background-size: cover;
+  background-color:white;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+}
+
+.hero-message{
+  background-color: white;
+  color:rgb(241, 118, 18) ;
+  height: 40px;
+  font-size:0.9rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-bottom: 10px;
+ 
+}
+
+.service-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.box{
+  border: 2px solid black;
+  height: 240px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 18px;
+}
+.box-img{
+  height: 200px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box-content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+footer{
+  margin-top:15px;
+  color:rgba(255,255,255,0.7);
+  background-color:rgb(61, 61, 61) ;
+  padding:10px;
+  
+}
+.foot-panel1{
+  
+  background-color:grey ;
+  color: white;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:0.9rem;
+}
+.foot-panel2{
+
+ height:100%;
+  
+ 
+}
+
+.about-section {
+    margin: 50px auto; /* Center the section and add margin top and bottom */
+    max-width: 90%; /* Limit the width of the section */
+    padding: 0 20px; /* Add padding to the sides */
+}
+
+.about-section h2 {
+    margin-bottom: 10px; /* Add margin below the heading */
+    color:rgba(255,255,255,0.8);
+}
+
+.about-section h3 {
+    margin-top: 10px; /* Add margin above the subheading */
+    color:rgba(255,255,255,0.8);
+}
+
+.about-section p {
+    margin-bottom: 10px; /* Add margin below each paragraph */
+}
+
+.about-section ul {
+    margin-bottom: 10px; /* Add margin below the unordered list */
+}
+
+.about-section li {
+    margin-bottom: 5px; /* Add margin below each list item */
+}
+
+
+/* Style the drop down button */
+.dropbtn {
+
+  border: none;
+  cursor: pointer;
+  background-color:black;
+  color:white;
+}
+
+/* Drop down container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Drop down content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  
+}
+
+/* Links inside the drop down */
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+ font-size:1rem;
+  display: block;
+}
+
+/* Change color of drop down links on hover */
+.dropdown-content a:hover {
+  background-color: rgba(241, 118, 18, 0.302);
+}
+
+/* Show the drop down content when the drop down button is clicked */
+.show {
+  display: block;
+}
+/* Style the nested drop down content */
+.nested-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    left: 100%;
+    top:16.67%;
+    /* Rotate the arrow for nested dropdown */
+  
+    margin:4px;
+}
+
+/* Show the nested drop down content when the parent is hovered */
+.nested-dropdown:hover .nested-dropdown-content {
+    display: block;
+}
+/* Show the nested drop down content when the parent is hovered */
+.nested-dropdown:hover .nested-dropdown-content {
+    display: block;
+}
+/* Style the arrow */
+i {
+    
+    margin-left: 15px; /* Adjust spacing as needed */
+}
+
+

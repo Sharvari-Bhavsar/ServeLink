@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServeLink HomePage</title>
+    <!-- file from cdnjs=content delivery network -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href ="homepage.css">
+    <style>
+    a{
+    color:black;
+    text-decoration:none;}
+    </style>
+    
+
+</head>
+<body>
+    <header>
+        <div class ="navbar">
+            
+            <div class="nav-log  ">
+                <!-- border is class -->
+                <div class="logo border"></div>
+            </div>
+              <!-- border is class -->
+            <div class="nav-address border">
+                <p class="addr-first"> Services in</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="addr-second">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+               
+            </div>
+            
+
+			<!-- border is class -->
+
+            <div class="nav-signIn border">
+                
+                <div class="dropdown">
+			  		<button onclick="toggleDropdown()" class="dropbtn">
+			  			<p><span> SignIn &</span></p>
+                		<p class ="nav-second" >Account<i class="fa-solid fa-sort-down"></i> </p>
+			  		</button>
+			  		<div id="dropdownContent" class="dropdown-content">
+			    		<a href="SignIn.html">Sign-In</a>
+			    		<div class="nested-dropdown">
+		        		<a href="#">My Account <i class="fa-solid fa-angle-right"></i> </a>
+		        			<div class="nested-dropdown-content">
+		            			<a href="myQuotation.jsp">My Quotations</a>
+		            			<a href="myOrders.jsp">My Orders</a>
+		            			<a href="#">My Profile</a>
+		            			<a href="myReview.jsp"> My Reviews</a>
+		            			<!-- Add more links as needed -->
+		        		   </div>
+		   		   		</div>
+		    			<a href="register.html">Register</a>
+		    			<a href="logout.jsp">Sign-Out</a>
+		                <a href="#">Settings</a>
+		                 <a href="Reviewform.html">Review Form</a>
+			    	    <a href="cumulativeReview.jsp">Rating/Reviews</a>
+			    <!-- Add more links as needed -->
+			    </div>
+			</div>
+                
+            </div>
+         <!-- border is class -->
+            <div class="nav-signIn border">
+            	    <div class="dropdown">
+			  		<button onclick="toggleDropdown2()" class="dropbtn">
+			  		 	<p><span> Orders &</span></pclass></p>
+                		<p class ="nav-second" >Quotations<i class="fa-solid fa-sort-down"></i></p>
+			  		</button>
+			  		<div id="dropdownContent2" class="dropdown-content">
+			    		<a href="displayOrders.jsp">All Orders</a>
+		    			<a href="Order.html">Order Form</a>
+		    		
+			    <!-- Add more links as needed -->
+			    </div>
+			</div>
+              
+            
+            </div>
+
+          
+        </div>
+        <div class="panel">
+           
+            <div class="panel-options">
+                <p><a href="displayOrders.jsp">All Orders</a></p>
+                 <p>  <a href="cumulativeReview.jsp">Rating/Reviews</a></p>
+                <p><a href="myOrders.jsp">My Orders</a></p>
+                <p><a href="myQuotation.jsp">My Quotations</a></p>
+               
+            </div>
+            <div class="panel-reviews ">
+               	<a href="cumulativeReview.jsp">Reviews</a>
+            </div>
+
+            
+       </div>
+       
+    </header>
+    <div class="hero-section">
+        <div class="hero-message">
+            <p>You are on the ServeLink website. Here, you can easily access multiple services with just one click while selecting the best quotation for your needs.</p>
+        </div>
+    </div>
+    <div class="service-section">
+    
+        <!-- box is class -->
+        <div class=" box">
+          
+           <div class="box-content">
+            <h3>Home Cleaning Services</h3>
+            <div class="box-img" style ="background-image:url('home-deep-cleaning-services.jpg')"></div>
+           </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+            <h3>Plumbing Services</h3>
+            <div class="box-img" style ="background-image:url('plumber-service.jpeg')"></div>
+           </div></div>
+        <div class="box ">
+            <div class="box-content">
+                <h3>Electrical Services</h3>
+                <div class="box-img" style ="background-image:url('electrical-services.avif')"></div>
+               </div>
+        </div>
+        <div class=" box ">
+            <div class="box-content">
+                <h3>Home Renovation Services</h3>
+                <div class="box-img" style ="background-image:url('home-renovation-services.webp')"></div>
+               </div>
+        </div>
+        <div class=" box">
+          
+            <div class="box-content">
+             <h3>Pest Control Services</h3>
+             <div class="box-img" style ="background-image:url('pest-control-services.jpg')"></div>
+            </div>
+         </div>
+         <div class=" box">
+             <div class="box-content">
+             <h3>Interior Design Services</h3>
+             <div class="box-img" style ="background-image:url('Online-interior-design-services.webp')"></div>
+            </div></div>
+         <div class=" box ">
+             <div class="box-content">
+                 <h3>Home Security Services</h3>
+                 <div class="box-img" style ="background-image:url('home-security-services.webp')"></div>
+                </div>
+         </div>
+         <div class=" box ">
+             <div class="box-content">
+                 <h3>Appliance Repair Services</h3>
+                 <div class="box-img" style ="background-image:url('appliance-repair-services.jpg')"></div>
+                </div>
+         </div>
+    </div>
+    <footer>
+        <div class="foot-panel1">
+            Back to top
+        </div>
+        <div class="foot-panel2">
+        <div class="about-section">
+    <h2>About Us</h2>
+    <p>Welcome to ServeLink, where convenience meets quality service. We are dedicated to revolutionizing the way you access and engage with various services from the comfort of your home.
+    At ServeLink, we understand the challenges of finding reliable service providers amidst the hustle and bustle of daily life. That's why we've created a seamless platform that connects you with a wide range of trusted service professionals, all in one place.
+    Our mission is to simplify your life by offering a convenient and efficient solution for your service needs. Whether you're looking for home cleaning, plumbing, electrical work, or any other service, we've got you covered.</p>
+    <h3>Why Choose Us</h3><br>
+    <ul>
+        <li><strong>Convenience:</strong> Say goodbye to endless phone calls and emails. With just a few clicks, you can access a variety of services tailored to your needs.</li>
+        <li><strong>Quality Service:</strong> We partner with only the best service providers to ensure that you receive top-notch service every time.</li>
+        <li><strong>Transparent Pricing:</strong> Compare quotations from different providers to choose the best option that fits your budget.</li>
+        <li><strong>Peace of Mind:</strong> Rest assured knowing that all service providers on our platform are thoroughly vetted and trusted by our team.</li>
+    </ul>
+    <p>Join the thousands of satisfied customers who have experienced the convenience and reliability of ServeLink. Start browsing our services today and take the first step towards simplifying your life.</p>
+</div>
+        
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
